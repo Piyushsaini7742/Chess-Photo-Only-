@@ -1,0 +1,36 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f0f0f0;
+	margin: 0;
+}
+
+.completediv {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	width: 80vmin;
+	height: 80vmin;
+	border: 10px solid black;
+	padding: 5px;
+}
+
+.row {
+	display: contents;
+}
+
+.whitebox,
+.blackbox {
+	width: 100%;
+	padding-top: 100%;
+	position: relative;
+}
+
+.whitebox {
+	background-color: #ffc0cb;
+}
+
+.blackbox {
+	background-color: #000;
+}
